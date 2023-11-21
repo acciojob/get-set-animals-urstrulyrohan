@@ -36,13 +36,13 @@ class Cat extends Animal {
   //   this._color = color;
   // }
 
-  meow() {
-    console.log("Meow");
+  purr() {
+    console.log("meow");
   }
 
   // You can override the makeSound method if you want a specific sound for cats
   makeSound() {
-    console.log("Meow meow");
+    console.log("meow meow");
   }
 }
 
